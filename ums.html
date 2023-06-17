@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Management System</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>User Management System</h1>
+    </header>
+    
+    <div class="centred">
+            <form id="userForm">
+            <input type="hidden" id="userId"><br>
+            <input type="text" id="name" placeholder="Enter Name"><br>
+            <input type="email" id="email" placeholder="Email"><br>
+            <button type="submit" id="addOrUpdateUser">Add User</button>
+        </form>
+    </div>
+    <table id="userTable">
+        <thead>
+            <tr>
+                <th>Employee Name</th>
+                <th>Email</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody id="userList">
+            <!-- User details will be dynamically added here -->
+        </tbody>
+    </table>
+
+    <script src="script.js"></script>
+</body>
+</html>

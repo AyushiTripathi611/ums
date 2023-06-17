@@ -1,0 +1,66 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: rgb(195, 253, 245);
+}
+
+header {
+    color: beige;
+    text-align: center;
+    background-color: rgb(3, 11, 54);
+    padding: 15px;
+}
+
+.centred {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    height: 40vh;
+    margin-top: 25px ;
+    margin-bottom: 10px;
+    
+}
+
+
+form {
+    width: 200px;
+    padding: 20px;
+    background-color: beige;
+    margin-bottom: 20px;
+}
+
+input, button {
+    padding: 10px;
+    margin-right: 5px;
+    margin-bottom: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th {
+    width: 30%;
+
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 2px solid #ddd;
+    
+}
+
+button {
+    cursor: pointer;
+}
+
+.success {
+    color: green;
+}
+
+.error {
+    color: red;
+}
